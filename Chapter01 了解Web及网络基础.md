@@ -10,5 +10,16 @@
 
 首先作为发送端的客户端在应用层发出一个想看某个 Web 页面的 HTTP 请求，在传输层把从应用层处收到的数据（HTTP 请求报文）进行分割，并在各个报文上打上标记序号及端口号后转发给网络层。在网络层，增加作为通信目的地的MAC 地址后转发给链路层。
 
-<img src="https://s1.ax1x.com/2020/04/25/JsuFu8.png" alt="JsuFu8.png" style="zoom: 50%;" />
+<img src="https://s1.ax1x.com/2020/04/25/JsuFu8.png" alt="JsuFu8.png" style="zoom: 67%;" />
 
+发送端在层与层之间传输数据时，每经过一层时必定会被打上一个该层所属的首部信息。反之，接收端在层与层传输数据时，每经过一层时会把对应的首部消去。这种把数据信息包装起来的做法称为封装。
+
+## 1.5 负责域名解析的 DNS 服务
+
+DNS 服务是和 HTTP 协议一样位于应用层的协议。它提供域名到 IP 地址之间的解析服务。
+
+<img src="https://s1.ax1x.com/2020/04/25/JsjWVS.png" alt="JsuFu8.png" style="zoom: 67%;" />
+
+## 1.6  个协议与 HTTP 协议的关系
+
+![](https://s1.ax1x.com/2020/04/25/Jsv6JJ.png)
