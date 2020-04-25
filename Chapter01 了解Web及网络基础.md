@@ -6,7 +6,7 @@
 
 ## 1.3.3 TCP/IP 通信传输流
 
-[<img src="img/JsnY1P.png" alt="JsnY1P.png" style="zoom:50%;" />](https://imgchr.com/i/JsnY1P)
+<img src="https://s1.ax1x.com/2020/04/25/JsnY1P.png" alt="JsuFu8.png" style="zoom: 50%;" />
 
 首先作为发送端的客户端在应用层发出一个想看某个 Web 页面的 HTTP 请求，在传输层把从应用层处收到的数据（HTTP 请求报文）进行分割，并在各个报文上打上标记序号及端口号后转发给网络层。在网络层，增加作为通信目的地的MAC 地址后转发给链路层。
 
